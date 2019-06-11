@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		082C93C1D99BE09B613E0138 /* Pods-WDZSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDZSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-WDZSDK_Tests/Pods-WDZSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4B2A90B7469AAA122AFB8F28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4B2A90B7469AAA122AFB8F28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WDZSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDZSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,14 +58,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6332D26399843C0E0AE947A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6332D26399843C0E0AE947A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		65A17CBB8C0C7FA7FAFDA668 /* Pods_WDZSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDZSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E339C8442DF4CBDEA9F4EE1 /* Pods-WDZSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDZSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-WDZSDK_Example/Pods-WDZSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3B8384876A5ED9AB6FEE7D2 /* Pods-WDZSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDZSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WDZSDK_Tests/Pods-WDZSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D70875065618EB83B00FA448 /* Pods-WDZSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDZSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-WDZSDK_Example/Pods-WDZSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF4405B44C7197C6017165C7 /* WDZSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WDZSDK.podspec; path = ../WDZSDK.podspec; sourceTree = "<group>"; };
+		DF4405B44C7197C6017165C7 /* WDZSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WDZSDK.podspec; path = ../WDZSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F49E133A01E396B74536BA86 /* Pods_WDZSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDZSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				C3B8384876A5ED9AB6FEE7D2 /* Pods-WDZSDK_Tests.debug.xcconfig */,
 				082C93C1D99BE09B613E0138 /* Pods-WDZSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
