@@ -1,0 +1,7 @@
+Example/Pods/PLPlayerKit/Pod/Library/PLPlayerKit.framework/PLPlayerKit filter=lfs diff=lfs merge=lfs -text
+Example/Pods/WDZMapManager/WDZMapManager/Classes/AMap_iOSSDK/AMapFoundationKit.framework/AMapFoundationKit filter=lfs diff=lfs merge=lfs -text
+Example/Pods/WDZMapManager/WDZMapManager/Classes/AMap_iOSSDK/AMapLocationKit.framework/AMapLocationKit filter=lfs diff=lfs merge=lfs -text
+Example/Pods/WDZMapManager/WDZMapManager/Classes/AMap_iOSSDK/AMapSearchKit.framework/AMapSearchKit filter=lfs diff=lfs merge=lfs -text
+Example/Pods/WDZMapManager/WDZMapManager/Classes/AMap_iOSSDK/MAMapKit.framework/MAMapKit filter=lfs diff=lfs merge=lfs -text
+WDZSDK/Classes/libWDZDevelopSDK.a filter=lfs diff=lfs merge=lfs -text
+WDZSDK/Classes/libWDZVideoSDK.a filter=lfs diff=lfs merge=lfs -text
