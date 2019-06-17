@@ -1,5 +1,10 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/WDZSDK
+ENABLE_BITCODE = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/AliyunOSSiOS" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/FSCalendar" "${PODS_CONFIGURATION_BUILD_DIR}/HPGrowingTextView" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager" "${PODS_CONFIGURATION_BUILD_DIR}/KVOController" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/TPKeyboardAvoiding" "${PODS_CONFIGURATION_BUILD_DIR}/TZImagePickerController" "${PODS_CONFIGURATION_BUILD_DIR}/UIActivityIndicator-for-SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/WDZMapManager" "${PODS_CONFIGURATION_BUILD_DIR}/YYCategories" "${PODS_CONFIGURATION_BUILD_DIR}/YYImage" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel" "${PODS_CONFIGURATION_BUILD_DIR}/libPhoneNumber-iOS" "${PODS_ROOT}/PLPlayerKit/Pod/Library" "${PODS_ROOT}/WDZMapManager/WDZMapManager/Classes/AMap_iOSSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/WDZSDK" "${PODS_ROOT}/Headers/Public"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../WDZSDK/Classes"
+OTHER_LDFLAGS = $(inherited) -l"WDZDevelopSDK" -l"WDZVideoSDK" -l"bz2" -l"c++" -l"iconv" -l"sqlite3" -l"z" -framework "AddressBook" -framework "AudioToolbox" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "ExternalAccessory" -framework "Foundation" -framework "GLKit" -framework "MessageUI" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

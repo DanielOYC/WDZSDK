@@ -1,0 +1,1 @@
+../../../../../WDZSDK/Classes/headers/OnsitePatrolShopTakePhotoView.h

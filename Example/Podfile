@@ -4,6 +4,8 @@ platform :ios, '8.0'
 
 target 'WDZSDK_Example' do
   pod 'WDZSDK', :path => '../'
+  
+  
 
   target 'WDZSDK_Tests' do
     inherit! :search_paths
